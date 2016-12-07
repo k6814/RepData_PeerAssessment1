@@ -36,7 +36,7 @@ df.TotalSteps <- as.data.frame(TotalSteps)
 
 
 
-```{r pressure, echo=FALSE}
+```{r pressure}
 hist(TotalSteps, col = "blue", xlab = "Total Steps per Day", ylab = "Frequency", 
     main = "Histogram of Total Steps taken per day",ylim=range(0,30))
 ```
